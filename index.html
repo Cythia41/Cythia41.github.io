@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Draggable - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <style>
+  #draggable { width: 150px; height: 150px; padding: 0.5em; }
+  </style>
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script>
+  $( function() {
+    $( "#draggable" ).draggable();
+  } );
+
+        function alertTest1() {
+  alert("thank u pikapika!");
+}
+  </script>
+</head>
+<body>
+ 
+<h1 style="color: gold;">把闪电拖到皮卡丘身上给皮卡丘充电</h1>
+<h2 style="color:blanchedalmond">please give me some power</h2>
+
+<div id="draggable" class="ui-widget-content">
+  <img src="闪电.jpg" width=25% >
+  <img src="闪电.jpg" width=25% >
+  <img src="闪电.jpg" width=25% >
+
+</div>
+
+
+<div class="pi ka" id="group1">
+  <a href= ' https://www.pokemon.com/us '>
+  <img src="pockmon1.jpg" width=70%  alt=“皮卡丘世界第一可爱“ border="5">
+  </a>
+  </div>
+
+
+  <button onclick="alertTest1();">我拖完了</button>
+
+</body>
+</html>
